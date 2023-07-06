@@ -1,0 +1,34 @@
+{
+  "name": "4S1F-FBSTATE",
+  "version": "1.5",
+  "description": "IMPORT/EXPORT FBSTATE.json WHICH CAN BE USED TO LET MESSENGER BOT LOGIN.",
+  "permissions": [
+    "cookies",
+    "activeTab",
+    "https://*.facebook.com/"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "logo/16.png",
+      "32": "logo/32.png",
+      "48": "logo/48.png",
+      "64": "logo/64.png",
+      "128": "logo/128.png"
+    }
+  },
+  "icons": {
+    "16": "logo/16.png",
+    "32": "logo/32.png",
+    "48": "logo/48.png",
+    "64": "logo/64.png",
+    "128": "logo/128.png"
+  },
+  "manifest_version": 2
+}
